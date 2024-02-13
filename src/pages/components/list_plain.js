@@ -8,7 +8,8 @@ const people = [
 
 export default function List() {
   const listItems = people.map(person =>
+    //linked to list_key
     <li>{person}</li>
-  );
+  ); 
   return <ul>{listItems}</ul>;
 }

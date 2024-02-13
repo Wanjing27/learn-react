@@ -8,6 +8,7 @@ export default function Gallery() {
   }
 
   let sculpture = sculptureList[index];
+  //need another object to refrech the onlything change part of the code "index"
   return (
     <>
       <button onClick={handleClick}>

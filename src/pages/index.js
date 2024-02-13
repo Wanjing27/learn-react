@@ -11,6 +11,16 @@ import Todos from './qcomps/todos'
 import Props from './qcomps/gallery_props'
 import Avatat from './components/profile_props'
 
+import List from './components/list_plain'
+import Key from './components/list_keys'
+import Key2 from './qcomps/list_keys_id'
+import Recipes from './qcomps/recipes'
+import MenuBar from './qcomps/menuBar'
+import Gallery1 from './components/whyState'
+import State from './components/state'
+import State2 from './qcomps/state'
+import StateObj from './components/stateObj'
+
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -22,6 +32,16 @@ export default function Home() {
         <Todos/>
         <Avatat/>
         <Props/>
+
+        <List/>
+        <Key/>
+        <Key2/>
+        <Recipes/>
+        <MenuBar/>
+        <Gallery1/>
+        <State/>
+        <State2/>
+        <StateObj/>
     </div>
 
 
