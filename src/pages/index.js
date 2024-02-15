@@ -21,6 +21,15 @@ import State from './components/state'
 import State2 from './qcomps/state'
 import StateObj from './components/stateObj'
 
+import StuckForm from './qcomps/stuckForm'
+import Thankyou from './qcomps/thankYouCrash'
+import Snap from './components/snapshot'
+import Snap2 from './components/snapshot2'
+import Qupadte from './components/queueUpdates'
+import Shopping from './qcomps/shoppingCart'
+import Object from './components/updObjects'
+import Object2 from './qcomps/updObjectsForm'
+
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -42,6 +51,15 @@ export default function Home() {
         <State/>
         <State2/>
         <StateObj/>
+
+        <StuckForm/>
+        <Thankyou/>
+        <Snap/>
+        <Snap2/>
+        <Qupadte/>
+        <Shopping/>
+        <Object/>
+        <Object2/>
     </div>
 
 
