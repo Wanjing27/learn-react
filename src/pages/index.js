@@ -21,6 +21,10 @@ import State from './components/state'
 import State2 from './qcomps/state'
 import StateObj from './components/stateObj'
 
+import Tcrash from './qcomps/thankYouCrash'
+import Stuck from './qcomps/stuckForm'
+import Shop from './qcomps/shoppingCart'
+import Obform from './qcomps/updObjectsForm'
 import Atrics from './components/artistsArr'
 import ArtisR from './qcomps/artistsRemoveArr'
 import AObject from './qcomps/arrObj'
@@ -45,7 +49,10 @@ export default function Home() {
         <State/>
         <State2/>
         <StateObj/>
-
+        <Tcrash/>
+        <Stuck/>
+        <Shop/>
+        <Obform/>
         <Atrics/>
         <ArtisR/>
         <AObject/>
