@@ -21,6 +21,9 @@ import State from './components/state'
 import State2 from './qcomps/state'
 import StateObj from './components/stateObj'
 
+import Atrics from './components/artistsArr'
+import ArtisR from './qcomps/artistsRemoveArr'
+import AObject from './qcomps/arrObj'
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -42,6 +45,10 @@ export default function Home() {
         <State/>
         <State2/>
         <StateObj/>
+
+        <Atrics/>
+        <ArtisR/>
+        <AObject/>
     </div>
 
 
